@@ -90,8 +90,10 @@ const Index = () => {
       )}
 
       {/* Footer */}
-      <footer className="text-center text-xs text-muted-foreground pt-8 pb-4">
-        Nexus App © {new Date().getFullYear()}
+      <footer className="text-center text-xs text-muted-foreground pt-8 pb-4 space-y-1">
+        <p>© 2026 Desenvolvido por Vinicius Lima</p>
+        <p className="font-medium text-foreground/70">Estratégia de Dados para E-commerce</p>
+        <p>CNPJ: 47.192.694/0001-70 · Todos os direitos reservados</p>
       </footer>
     </div>
   );
